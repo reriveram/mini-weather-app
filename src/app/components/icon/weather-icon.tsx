@@ -1,24 +1,20 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-import {
-  faCloud,
-  faCloudBolt,
-  faCloudRain,
-  faSun,
-} from "@fortawesome/free-solid-svg-icons";
-import { weatherIconStyle } from "./weather-icon.css";
 import { ReactElement } from "react";
 import { Text } from "../ui/text";
+import SunIcon from "./sun";
+
+import CloudIcon from "./cloud";
+import StormIcon from "./storm";
+import RainIcon from "./rain";
 
 interface WeatherIconProps {
   weather: string | undefined;
 }
 
 const weatherDict: { [key: string]: ReactElement } = {
-  Sun: <FontAwesomeIcon className={weatherIconStyle} icon={faSun} />,
-  Rain: <FontAwesomeIcon className={weatherIconStyle} icon={faCloudRain} />,
-  Clouds: <FontAwesomeIcon className={weatherIconStyle} icon={faCloud} />,
-  Storm: <FontAwesomeIcon className={weatherIconStyle} icon={faCloudBolt} />,
+  Sun: <SunIcon />,
+  Rain: <RainIcon />,
+  Clouds: <CloudIcon />,
+  Storm: <StormIcon />,
 };
 
 export default function WeatherIcon({ weather }: WeatherIconProps) {
