@@ -7,7 +7,7 @@ const useLocationByCoords = ({ lat, lon }: { lat: number; lon: number }) => {
   const [error, setError] = useState<Error["message"]>();
 
   const limit = 5;
-  const locationEndpoint = `http://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${lon}&limit=${limit}&appid==dea62b41a3e114eccea1f351602f3b17`;
+  const locationEndpoint = `https://api.openweathermap.org/geo/1.0/reverse?lat=${lat}&lon=${lon}&limit=${limit}&appid==dea62b41a3e114eccea1f351602f3b17`;
 
   useEffect(() => {
     const controller = new AbortController();

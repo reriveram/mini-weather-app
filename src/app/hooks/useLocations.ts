@@ -7,7 +7,7 @@ const useLocations = (input: string) => {
   const [error, setError] = useState<Error["message"]>();
 
   const limit = 5;
-  const locationsEndpoint = `http://api.openweathermap.org/geo/1.0/direct?q=${input}&limit=${limit}&appid=${process.env.NEXT_PUBLIC_OPEN_WEATHER_KEY}`;
+  const locationsEndpoint = `https://api.openweathermap.org/geo/1.0/direct?q=${input}&limit=${limit}&appid=${process.env.NEXT_PUBLIC_OPEN_WEATHER_KEY}`;
 
   useEffect(() => {
     const controller = new AbortController();
