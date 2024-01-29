@@ -8,6 +8,15 @@ Welcome to Weather Week, a user-friendly web app designed for quick and convenie
 
 ## Screenshots
 
+![image](https://github.com/reriveram/mini-weather-app/assets/17294307/c3f6dcfd-34d5-46e6-81a3-9230a9740f20)
+
+![image](https://github.com/reriveram/mini-weather-app/assets/17294307/b0fa73dd-a687-4b7f-be21-5b19a4a03c2b)
+
+![image](https://github.com/reriveram/mini-weather-app/assets/17294307/4213f4ae-0e67-46d7-acc9-2b579a17986f)
+
+![image](https://github.com/reriveram/mini-weather-app/assets/17294307/12f21125-3c1d-4f6d-93e3-d2a9872c1b42)
+
+![image](https://github.com/reriveram/mini-weather-app/assets/17294307/dd72e440-6ee8-4de0-ab47-58f8e0f44071)
 
 
 
